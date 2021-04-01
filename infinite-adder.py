@@ -1,5 +1,5 @@
-# Infinite Adding
-# For exploring infinite series
+# Infinite Adder
+# For calculating infinite series
 from fractions import Fraction as frac
 
 # Initial fraction to be added to powers of itself
