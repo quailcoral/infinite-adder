@@ -7,11 +7,11 @@ from fractions import Fraction as frac
 parser = argparse.ArgumentParser()
 
 parser.add_argument('fraction', nargs='?', default='1/2', 
-        help='Fraction to add powers of. Default is 1/2')
+        help='fraction to add powers of. default is 1/2')
 parser.add_argument('coefficient', nargs='?', default='1', 
-        help='Coefficient to multiply entire series by. Default is 1')
+        help='coefficient to multiply entire series by. default is 1')
 parser.add_argument('-i', '--iterations', type=int, default=10, 
-        help='Set number of iterations. Default is 10')
+        help='set the number of iterations. default is 10')
 
 args = parser.parse_args()
 
