@@ -22,8 +22,16 @@ coefficient = frac(args.coefficient)
 # Variables for looping
 exponent = fraction
 total = coefficient*fraction
+data = []
 
+# Calculate series
 for i in range(0, args.iterations):
-    print(str(total)+'='+str(float(total)))
-    exponent *= fraction
+    data.append([str(total), str(float(total))])
+    exponent *= frac(1, fraction.denominator)
     total += coefficient*exponent
+
+# Format data into columns
+widths = '{:^'+str(len(data[-1][0])+2)+'s}{:<'+str(len(data[-1][1]))+'s}'
+
+for i in range(len(data)):
+    print(widths.format(data[i][0],data[i][1]))
