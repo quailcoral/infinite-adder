@@ -9,7 +9,7 @@ Python script for calculating infinite series
 First, download or clone the repository
 ```bash
 git clone https://github.com/quailcoral/infinite-adder.git
-cd infinite-adding
+cd infinite-adder
 ```
 To use the script, run
 ```bash
