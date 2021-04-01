@@ -29,4 +29,4 @@ python3 infinite-adder.py --help
 ## Resources
 * [Fraction module](https://www.tutorialspoint.com/fraction-module-in-python)
 * [Argparse module](https://zetcode.com/python/argparse/)
-* [Printing columns](https://www.educba.com/python-print-table/)
+* [Printing columns](https://scientificallysound.org/2016/10/17/python-print3/)
