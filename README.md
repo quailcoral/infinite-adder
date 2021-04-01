@@ -3,7 +3,7 @@ Python script for calculating infinite series
 
 ## Requirements
 * Python 3
-* `fractions` and `argparse` (both in standard library)
+* `fractions` and `argparse` packages (both in standard Python library)
 
 ## Usage
 First, download or clone the repository
