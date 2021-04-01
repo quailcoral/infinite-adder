@@ -6,20 +6,26 @@ Python script for calculating infinite series
 * `fractions` and `argparse` (both in standard library)
 
 ## Usage
-Download or clone repository:
+First, download or clone the repository
 ```bash
 git clone https://github.com/quailcoral/infinite-adder.git
 cd infinite-adding
 ```
-Run script. This defaults to 10 iterations of the 1/2 series with coefficient 1
+Then, run
 ```bash
 python3 infinite-adder.py
 ```
-Customize input. This will give 20 iterations of the 1/3 series all multiplied by 1/2
+This defaults to 10 iterations of the 1/2 series with coefficient 1.
+To customize the series, add inputs at the end. This example will run 20 iterations of the 1/3 series multiplied by 1/2
 ```bash
 python3 infinite-adder.py 1/3 1/2 -i 20
 ```
-Help screen for the inputs
+To acces the help screen, run
 ```bash
 python3 infinite-adder.py --help
 ```
+
+## Resources
+* [Fraction module](https://www.tutorialspoint.com/fraction-module-in-python)
+* [Argparse module](https://zetcode.com/python/argparse/)
+* [Printing columns](https://www.educba.com/python-print-table/)
