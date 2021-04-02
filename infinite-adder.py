@@ -27,7 +27,7 @@ data = []
 # Calculate series
 for i in range(0, args.iterations):
     data.append([str(total), str(float(total))])
-    exponent *= frac(1, fraction.denominator)
+    exponent *= fraction
     total += coefficient*exponent
 
 # Format data into columns
